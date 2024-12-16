@@ -28,6 +28,7 @@ router.post('/register',Upload.single('profileImage'), async (req, res) => {
 
         if(!profileImage){
             return res.status(400).send("No file uploaded");
+            ///////////
         }
 
 
